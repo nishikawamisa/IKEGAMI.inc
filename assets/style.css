@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta ruby="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>practice</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="top">
+      <div class="hero background1"></div>
+      <div class="hero background2"></div>
+      <div class="hero background3"></div>
+      <header class="header">
+        <img class="logo" src="./assets/images/logo.png" alt="会社のロゴ">
+
+          <ul class="menu">
+            <li class="menu-item">
+              <a class="menu-button" href="#">TOP</a>
+              <p class="menu-ruby">トップ</p>
+            </li>
+            <li class="menu-item">
+              <a class="menu-button" href="#message">MESSAGE</a>
+              <p class="menu-ruby">メッセージ</p>
+            </li>
+            <li class="menu-item">
+              <a class="menu-button" href="#approach">APPROACH</a>
+              <p class="menu-ruby">事業内容</p>
+            </li>
+            <li class="menu-item">
+              <a class="menu-button" href="#company">COMPANY</a>
+              <p class="menu-ruby">会社概要</p>
+            </li>
+            <li class="menu-item">
+              <a class="menu-button" href="#access">ACCESS</a>
+              <p class="menu-ruby">アクセス</p>
+            </li>
+            <li class="menu-item">
+              <a class="menu-button" href="#contact">CONTACT</a>
+              <p class="menu-ruby">お問い合わせ</p>
+            </li>
+          </ul>
+      </header>
+      <div class="top-massages">
+        <h1 class="top-massage">Our Values and Challenges</h1>
+        <h1 class="top-massage2">for the Future</h1>
+        <p class="top-massage-ruby">私たちの価値と未来へチャレンジ</p>
+      </div>
+    </div>
+    <div class="contents">
+
+      <div class="contents-section" id="message">
+        <div class="contents-border fadein-right2"></div>
+        <h2 class="contents-title fadein-left2">MESSAGE</h2>
+        <p class="contents-ruby fadein-right2">メッセージ</p>
+        <p class="message-text fade">
+          不動産事業、建築事業を総合的に展開し、経験と実績を積み重ねてきました。<br>
+          これまでに培ってきた数々のノウハウを生かし、<br>
+          多様化するニーズに向け、最大限のサポー トをお約束します。<br>
+          不動産買取も積極的に行っておりますのでご相談だけでもお気軽にお問合せください。
+        </p>
+      </div>
+      <div class="contents-section" id="approach">
+        <div class="contents-border fadein-right2"></div>
+        <h2 class="contents-title fadein-left2">APPROACH</h2>
+        <p class="contents-ruby fadein-right2">事業内容</p>
+        <ul class="approach-images">
+          <li class="approach-image">
+            <div class="approach-picture-box">
+              <img class="approach-picture fade" src="./assets/images/architecture.png" alt="事業内容の写真1">
+              <div class="approach-box fadein-right">
+                <h3 class="approach-title">- ARCHITECUTURE -</h3>
+                <span class="approach-ruby">建築</span>
+                <p class="approach-text">デザイン・住宅・店舗<br>各改修工事・リフォーム</p>
+              </div>
+            </div>
+          </li>
+          <li class="approach-image">
+            <div class="approach-picture-box-even">
+              <img class="approach-picture fade" src="./assets/images/buyandsell.png" alt="事業内容の写真2">
+              <div class="approach-box-even fadein-left">
+                <h3 class="approach-title">- BUY AND SELL -</h3>
+                <span class="approach-ruby">売買</span>
+                <p class="approach-text">事業用地・1棟収益・土地<br>戸建・区分所有</p>
+              </div>
+            </div>
+          </li>
+          <li class="approach-image">
+            <div class="approach-picture-box">
+              <img class="approach-picture fade" src="./assets/images/forrent.png" alt="事業内容の写真3">
+              <div class="approach-box fadein-right">
+                <h3 class="approach-title">- FOR RENT -</h3>
+                <span class="approach-ruby">賃貸</span>
+                <p class="approach-text">事業用地・工場・倉庫・テナント<br>戸建・マンション・駐車場</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="contents-section">
+        <div class="contents-border fadein-right2"></div>
+        <h2 class="contents-title fadein-left2">INSTAGRAM</h2>
+        <p class="contents-ruby fadein-right2">インスタグラム</p>
+        <div class="instagram-items">
+            <img class="instagram-image fade" src="./assets/images/instagram1.png" alt="インスタグラムの画像1">
+            <img class="instagram-image fade" src="./assets/images/instagram2.png" alt="インスタグラムの画像2">
+            <img class="instagram-image fade" src="./assets/images/instagram3.png" alt="インスタグラムの画像3">
+        </div>
+      </div>
+      <div class="contents-section" id="company">
+        <div class="contents-border fadein-right2"></div>
+        <h2 class="contents-title fadein-left2">COMPANY</h2>
+        <p class="contents-ruby fadein-right2">企業概要</p>
+        <div class="company-images">
+          <img class="company-image fade" src="./assets/images/company.png" alt="会社の画像">
+          <div class="company-box fadein-right">
+            <p class="company-box-text1">​
+              会社名<br>
+              代表取締役<br>
+              設立<br>
+              所在地<br>
+              TEL/FAX<br>
+              Mail Address<br>
+              免許番号<br>
+              加盟協会<br>
+              従業員数<br>
+              営業時間<br>
+              定休日
+            </p>
+            <p class="company-box-text2">​
+              株式会社IKEGAMI<br>
+              池上　聖巧<br>
+              平成23年12月19日<br>
+              〒550-0006　大阪府大阪市西区江之子島1丁目6-5<br>
+              06-6445-8433 / 06-6445-8422<br>
+              info@ikegami-co.co<br>
+              宅建業：大阪府知事(2)56683号<br>
+              建設業：大阪府知事許可（般-24）第137622号<br>
+              公益社団法人　不動産保証協会<br>
+              10名<br>
+              9:00〜18:00<br>
+              不動産部：水曜日・祝日 / 工事部：日曜日、祝日<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="contents-section" id="access">
+        <div class="contents-border fadein-right2"></div>
+        <h2 class="contents-title fadein-left2">ACCESS</h2>
+        <p class="contents-ruby fadein-right2">アクセス</p>
+        <p class="map">大阪市営地下鉄千日前線:阿波座 徒歩3分</p>
+        <img class="map-image fade" src="./assets/images/access.png" alt="地図の画像">
+      </div>
+      <div class="contents-section">
+        <div class="contents-border fadein-right2"></div>
+        <h2 class="contents-title fadein-left2">CONTACT</h2>
+        <p class="contents-ruby fadein-right2">お問い合わせ</p>
+        <h3 class="company-name fade">株式会社IKEGAMI</h3>
+        <p class="contact-text fade">当社へのお問い合わせは、下記電話番号、メールアドレスにて承っております。<br>
+          お気軽にお問い合わせ下さい。
+        </p>
+        <div class="contact-form" id="contact">
+          <div class="tel">
+            <img class="tel-logo" src="./assets/images/tel.png" alt="電話のロゴ">
+            <p class="tel-number">06-6445-8433</p>
+          </div>
+          <div class="mail">
+            <img class="mail-logo" src="./assets/images/mail.png" alt="メールのロゴ">
+            <p class="mail-address">info@ikegami-co.com</p>
+          </div>
+        </div>
+        <div class="reception">
+          <p class="reception-time">受付時間:08:00〜18:30</p>
+          <p class="holiday1">定 休 日 :不動産部・水曜日・祝日</p>
+          <p class="holiday2">工事部・日曜日、祝日</p>
+        </div>
+      </div>
+      <p class="copy-right"><small>&copy; Ikegami ALL Rights Reserved</small></p>
+    </div>
+
+
+
+
+  </div>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
